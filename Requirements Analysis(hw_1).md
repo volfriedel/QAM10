@@ -1,6 +1,6 @@
-First of all, I decided to number the points in order to improve the traceability of the requirements.
-
-**Settings/Functions on the “Create View” Page**
+>:information_source: **First of all, I decided to number the points in order to improve the traceability of the requirements.** :information_source:
+---
+# Settings/Functions on the “Create View” Page #
 - **UR-1** “Report View Name” → sets Report View displayname for the roles: FirmManager and Advisor.
   - **UR-1.1** Text box
   - **UR-1.2** Character limit = 255
@@ -24,6 +24,9 @@ First of all, I decided to number the points in order to improve the traceabilit
       - **UR-5.2.2.1** If Fails validation, then display red border around text box and display message:
   - **UR-5.3** Upon successful save by clicking Save button, takes you to Report Builder Page
 
+#### UR-6 ####
+
+# :heavy_exclamation_mark:	 Table of bugs in requirements :heavy_exclamation_mark:	 #
 | Requirements |  Bugs  |
 |--------------|--------|
 |See UR-1.2; See UR-1.3| Displayname character count <= 256 contradicts сharacter limit = 255|
@@ -36,8 +39,7 @@ First of all, I decided to number the points in order to improve the traceabilit
 |See design mockup|Missing Button: “Next” in requirements (or meaning of button “Next”)|
 |See UR-5.2.2.1|What message|
 
-
-Notes:
+## :warning:Notes:warning:	 ##
 1.	To my mind, better use Radio Button instead of Radio Icon cause it the most common and understandable concept.
 2.	Does the user's role affect the completion of the form, except in the case of format selection?
 3.	Always Offer a Default Radio Button Selection is a good practice. 
